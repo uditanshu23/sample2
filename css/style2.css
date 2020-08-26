@@ -20,3 +20,13 @@
 	font-weight: bolder;
 	font-size: 120%;
 }
+@media screen and (max-width: 531px){
+	.textContainer{
+		width: 100%;
+		height: 15rem;
+		margin: 1px;
+	}
+	.auto_cointainer{
+		width: 100%;
+	}
+}
