@@ -1,5 +1,15 @@
 .intro{
-	
+	width: 600px;
+	display: inline-block;
+	text-align: justify;
+	margin: 20px;
+	margin-right: 50px;
+
+}
+.intro_head{
+	text-align: center;
+	font-size: 150%;
+	font-weight: bolder;
 }
 .textContainer{
 		height: 15rem;
@@ -14,8 +24,13 @@
 }
 .auto_cointainer{
 	width: 500px;
+	display: inline-block;
+	float: right;
+	margin-right: 40px;
+	margin-left: 20px; 
 }
 .auto_head{
+	padding-top: 50px;
 	text-align: center;
 	font-weight: bolder;
 	font-size: 120%;

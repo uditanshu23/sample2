@@ -282,6 +282,10 @@ img {vertical-align: middle;}
   {
     margin-bottom:30px
   }
+  .dev_text{
+    text-align: center;
+    float: none;
+  }
 }
 @media (max-width:767px)
 {
@@ -292,6 +296,10 @@ img {vertical-align: middle;}
   .site-footer .copyright-text,.site-footer .social-icons
   {
     text-align:center
+  }
+  .dev_text{
+    text-align: center;
+    float: none;
   }
 }
 .social-icons
@@ -364,6 +372,10 @@ img {vertical-align: middle;}
     margin-right:0;
     font-weight:600
   }
+  .dev_text{
+    text-align: center;
+    float: none;
+  }
 }
 .main-content{
   display: flex;
@@ -379,4 +391,10 @@ img {vertical-align: middle;}
 }
 .box .content{
   margin: 20px 0 0 0;
+}
+@media screen and (max-width: 531px){
+  .dev_text{
+    float: none;
+    text-align: center;
+  }
 }
